@@ -1,0 +1,30 @@
+body {
+    background: rgba(255, 0, 0, 0.822);
+    color: #0c8b00;
+}
+.calc {
+    background: rgb(255, 255, 255);
+    width: 315px;
+    height: 485px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+}
+.key {
+    width: 75px;
+    height: 75px;
+    background: black;
+}
+._grid {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 85px repeat(5, 75px);
+    gap: 5px;
+}
+._tablet {
+    grid-column: span 4;
+}
+.tablet{
+    background: rgb(0, 4, 255);
+    height: 85px;
+}
